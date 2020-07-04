@@ -1,6 +1,6 @@
 # ALDEIA DA SERRA REAL ESTATE
 
-<img src="img/aldeia_da_serra_ws.png" width="900">
+<img src="img/webscraping_cover.png" width="900">
 
 créditos da foto: https://flaviogfranca.com.br/
 
@@ -38,7 +38,7 @@ As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos'
 
 The aim of this project is to automate the collection of real estate advertisings from <a href= "http://vivareal.com.br"> Viva Real </a> marketplace web site using web scraping technology in compliance with the site rules stated in the robots.txt file. 
 
-<img src="img/vivareal.png" width="900">
+<img src="img/webscraping_vivareal_page.png" width="900">
 
 The following information will be extracted for each real estate:
 
@@ -67,7 +67,14 @@ As we can see there are some data cleansing to be done (e.g. to split the addres
 
 ### SOLUTION
 
-<img src="img/vivareal.gif" width="900">
+<img src="img/webscraping_vivareal_scraping.gif" width="900">
+
+
+
+### RESULTS
+
+<img src="img/webscraping_results.png" width="900">
+
 
 
 ### REFERENCES
@@ -89,6 +96,9 @@ https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85
 
 ### FURTHER DEVELOPMENTS
 
-* Use a tool such as Airflow to automate the web scraping execution.
+* Improve code by storing urls and page parameter to avoid code repetition.
 
-* Create a cloud database and add new house advertisements incrementally.
+* Use a ETL tool such as Airflow to automate the web scraping execution.
+
+* Create a cloud database and add new house advertisements incrementally keeping
+track of publication date.
