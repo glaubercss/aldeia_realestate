@@ -51,7 +51,7 @@ The following information will be extracted for each real estate:
 7. price asked
 8. url
 
-As we can see there are some data cleansing to be done (e.g. to split the address into street name, street number and city) in the second phase of the project.
+As you might have antecipated there are some data transformation to be done (e.g. to split the address into street name, street number and city) that will be addressed in the second phase of the project.
 
 
 
@@ -67,6 +67,8 @@ As we can see there are some data cleansing to be done (e.g. to split the addres
 
 ### SOLUTION
 
+Note how the page is loaded the first time displaying the total number of advertisements and then it's loaded again with a different number and different items. The correct number is the displayed at the first time and the correct items to be scraped are displayed afterwards.
+
 <img src="img/webscraping_vivareal_scraping.gif" width="900">
 
 
@@ -80,7 +82,7 @@ As we can see there are some data cleansing to be done (e.g. to split the addres
 ### REFERENCES
 
 * Tutorial: Web Scraping and BeautifulSoup - Alex Olteanu Dataquest
-  https://www.dataquest.io/blog/web-scraping-beautifulsoup/
+https://www.dataquest.io/blog/web-scraping-beautifulsoup/
 
 * Web scraping com python —Selenium e Javascript - Henrique Coura
 https://medium.com/@henriquecoura_87435/web-scraping-com-python-selenium-e-javascript-faa108f95bbe
