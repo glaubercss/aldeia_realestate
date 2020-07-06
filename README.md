@@ -142,7 +142,7 @@ To inspect and transform - clean, deduplicate, categorize and filter -,  the att
 In blue are the attributes to be cleaned from the dust, in red.
 
 
-3. The most challeging attribute is the Address that after cleaned must be splitted into street_name, street_number, condo_name and city, because the records are no homogeneou pattern. Actually, there are 4 different patterns that get to be addressed as below:
+3. The most challeging attribute is the Address that must be splitted into street_name, street_number, condo_name and city, because the records are not homogeneous. Actually, there are 4 different patterns that get to be addressed:
 
 <img src="img/cleaning_address.png" width="900">
 
@@ -156,10 +156,11 @@ Cleaning preparation:
 
 The four patterns are prepared using separators to be correctly splitted:
 
-a. street name | city
-b. street name | street number| neighbourhood | city
-c. street name | condo name | neighbourhood | city
-d. street name | street number| condo name | neighbourhood | city
+1. street name | city
+2. street name | street number| neighbourhood | city
+3. street name | condo name | neighbourhood | city
+4. street name | street number| condo name | neighbourhood | city
+
 
 Expected resuls:
 
