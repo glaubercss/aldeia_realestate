@@ -4,34 +4,38 @@
 
 créditos da foto: https://flaviogfranca.com.br/
 
-### INTRO
-
-This is my very first WEB SCRAPING project developed to exercise recently acquired knowledge on Selenium and BeautifulSoup. It's the first part of a major project that will include also data cleansing, exploratory data analysis, machine learning model and deployment.
 
 
 
-### FULL PROJECT:
+# FULL PROJECT:
 
 - [x] 1. Web Scraping
-- [ ] 2. Data Cleansing
+- [x] 2. Data Cleansing
 - [ ] 3. EDA - Exploratory Data Analysis (TBD)
 - [ ] 4. Machine Learning Model (TBD)
 - [ ] 5. Model Deplyment (TBD)
 
 
 
-### MOTIVATION
+## INTRO
+
+This is my very first WEB SCRAPING project developed to exercise recently acquired knowledge on Selenium and BeautifulSoup. It's the first part of a major project that will include also data cleansing, exploratory data analysis, machine learning model and deployment.
+
+
+## MOTIVATION
 
 It's widely known that real life projects are quite more challenging than those we usually find in courses or dataset repositories. Thus the motivation is **to develop a simple yet original  project** - not based on readly available datasets -, **from idea to deploy** as a mean to exercise, improve and show my ongoing Data Science skills.
 
 
-
-### SUBJECT
+## SUBJECT
 
 Aldeia da Serra village, a suburban housing neighbourhood located 35km far from Sao Paulo city Brazil. It's a place with about 10 housing condominiuns where people live close to nature and not too far from workplace. Although traffic is usually heavy and it takes about 30' to get to Alphaville region about 90' to Sao Paulo city.
 
 As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos's southern region. Yes, I live at Aldeia da Serra and for me the proximity to the Nature is worth the distance from workplace. Additionally, recent developments of Covid-19 has been acellerating the adoption and expansion of **work from home** modality among entreprises, which may decrease the necessity to commute.
 
+
+
+## PART I - WEB SCRAPING
 
 
 ### AIM
@@ -98,9 +102,41 @@ https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85
 
 ### FURTHER DEVELOPMENTS
 
+* Get houses' descriptions to improve condo_name for adversiments without it.
+
+* Get houses' attributes (e.g. swiming pool)
+
 * Improve code by storing urls and page parameter to avoid code repetition.
 
 * Use a ETL tool such as Airflow to automate the web scraping execution.
 
 * Create a cloud database and add new house advertisements incrementally keeping
 track of publication date.
+
+
+
+
+
+## PART II - EXPLORATORY DATA ANALYSIS
+
+
+
+### AIM
+
+
+
+### CHALLENGES
+
+
+
+### SOLUTION
+
+
+
+### RESULTS
+
+
+### REFERENCES
+
+
+### FURTHER DEVELOPMENTS
