@@ -9,8 +9,8 @@ créditos da foto: https://flaviogfranca.com.br/
 
 # FULL PROJECT:
 
-- [x] [1. Web Scraping](##-web-scraping)
-- [x] [2. Data Cleansing](##-data-cleansing)
+- [x] [1. Web Scraping](#web-scraping)
+- [x] [2. Data Cleansing](#data-cleansing)
 - [ ] 3. EDA - Exploratory Data Analysis (TBD)
 - [ ] 4. Machine Learning Model (TBD)
 - [ ] 5. Model Deplyment (TBD)
@@ -36,7 +36,8 @@ As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos'
 
 
 
-## WEB SCRAPING
+
+# WEB SCRAPING
 
 
 ### AIM
@@ -119,11 +120,7 @@ track of publication date.
 
 
 
-
-
-
-## DATA CLEANSING
-
+# DATA CLEANSING
 
 
 ### AIM
