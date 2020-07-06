@@ -9,8 +9,8 @@ créditos da foto: https://flaviogfranca.com.br/
 
 # FULL PROJECT:
 
-- [x] 1. Web Scraping
-- [x] 2. Data Cleansing
+- [x] <a href="Part I">1. Web Scraping</a>
+- [x] <a href="Part II">2. Data Cleansing</a>
 - [ ] 3. EDA - Exploratory Data Analysis (TBD)
 - [ ] 4. Machine Learning Model (TBD)
 - [ ] 5. Model Deplyment (TBD)
@@ -34,6 +34,7 @@ Aldeia da Serra village, a suburban housing neighbourhood located 35km far from 
 As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos's southern region. Yes, I live at Aldeia da Serra and for me the proximity to the Nature is worth the distance from workplace. Additionally, recent developments of Covid-19 has been acellerating the adoption and expansion of **work from home** modality among entreprises, which may decrease the necessity to commute.
 
 
+<h1 id="Part I"></h1>
 
 ## PART I - WEB SCRAPING
 
@@ -117,26 +118,51 @@ track of publication date.
 
 
 
-## PART II - EXPLORATORY DATA ANALYSIS
+
+<h2 id="Part II"></h2>
+## PART II - DATA CLEANSING
 
 
 
 ### AIM
 
+To inspect and transform - clean, deduplicate, categorize and filter -,  the attributes scraped from Viva Real real estate market place in ways that it can be used for Exploratory Data Analysis (EDA) and Machine Model (ML) creation.
+
 
 
 ### CHALLENGES
 
+1. House attributes scraped:
+
+<img src="img/webscraping_vivareal_page.png" width="900">
 
 
-### SOLUTION
+2. The above attributes were extracted and recorded as below:
+
+<img src="img/cleaning_before.png" width="900">
+In blue are the attributes to be cleaned from the dust, in red.
+
+
+3. The most challeging attribute is the Address that after cleaned must be splitted into street_name, street_number, condo_name and city, because the records are no homogeneou pattern. Actually, there are 4 different patterns that get to be addressed as below:
+
+<img src="img/cleaning_address.png" width="900">
 
 
 
 ### RESULTS
 
+Cleaning preparation:
 
-### REFERENCES
+<img src="img/cleaning_preparation.png" width="900">
 
+The four patterns are prepared using separators to be correctly splitted:
 
-### FURTHER DEVELOPMENTS
+a. street name | city
+b. street name | street number| neighbourhood | city
+c. street name | condo name | neighbourhood | city
+d. street name | street number| condo name | neighbourhood | city
+
+Expected resuls:
+
+- street name | street number | condo name |  city
+
