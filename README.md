@@ -9,8 +9,8 @@ créditos da foto: https://flaviogfranca.com.br/
 
 # FULL PROJECT:
 
-- [x] <a href="Part I">1. Web Scraping</a>
-- [x] <a href="Part II">2. Data Cleansing</a>
+- [x] <a href="#section1">1. Web Scraping</a>
+- [x] <a href="#section2">2. Data Cleansing</a>
 - [ ] 3. EDA - Exploratory Data Analysis (TBD)
 - [ ] 4. Machine Learning Model (TBD)
 - [ ] 5. Model Deplyment (TBD)
@@ -34,8 +34,7 @@ Aldeia da Serra village, a suburban housing neighbourhood located 35km far from 
 As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos's southern region. Yes, I live at Aldeia da Serra and for me the proximity to the Nature is worth the distance from workplace. Additionally, recent developments of Covid-19 has been acellerating the adoption and expansion of **work from home** modality among entreprises, which may decrease the necessity to commute.
 
 
-<h1 id="Part I"></h1>
-
+<h1 id="#section1"></h1>
 ## PART I - WEB SCRAPING
 
 
@@ -119,7 +118,7 @@ track of publication date.
 
 
 
-<h2 id="Part II"></h2>
+<h2 id=#section2></h2>
 ## PART II - DATA CLEANSING
 
 
