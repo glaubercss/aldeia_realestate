@@ -13,27 +13,33 @@ créditos da foto: https://flaviogfranca.com.br/
 - [x] [2. Data Cleansing](#data-cleansing)
 - [ ] 3. EDA - Exploratory Data Analysis (TBD)
 - [ ] 4. Machine Learning Model (TBD)
-- [ ] 5. Model Deplyment (TBD)
+- [ ] 5. Model Deployment (TBD)
 
 
 
 ## INTRO
 
-This is my very first WEB SCRAPING project developed to exercise recently acquired knowledge on Selenium and BeautifulSoup. It's the first part of a major project that will include also data cleansing, exploratory data analysis, machine learning model and deployment.
+This is my very first Python project developed to exercise **Python programming, Web Scraping and Machine Learning skills** that I've been developing in the last 18 months together with other tools.
+
+It's comprised of 5 sections mentioned above and **ultimate goal** is to **recommend price for new houses advertisements** by considering its attributes such as constructed area, condominium where it's located, number of bedrooms, number of bathrooms, number of en suites and number of car spaces. That tool would be used to
+
+This is intended to be the first of a series of projects that will also include machine learning models for forecasting, classification, recommendation and so on.
+
+I'll also include information about Business intelligence projects that are already developed, including ETL processes.
 
 
 ## MOTIVATION
 
-It's widely known that real life projects are quite more challenging than those we usually find in courses or dataset repositories. Thus the motivation is **to develop a simple yet original  project** - not based on readly available datasets -, **from idea to deploy** as a mean to exercise, improve and show my ongoing Data Science skills.
+It's widely known that real life projects are quite more challenging than those we usually find in courses or dataset repositories. Thus the motivation is **to develop a simple yet original project** - not based on readly available datasets -, **from idea to deploy** as a mean to exercise, improve and show my ongoing Data Science skills.
 
 
 ## SUBJECT
 
-Aldeia da Serra village, a suburban housing neighbourhood located 35km far from Sao Paulo city Brazil. It's a place with about 10 housing condominiuns where people live close to nature and not too far from workplace. Although traffic is usually heavy and it takes about 30' to get to Alphaville region about 90' to Sao Paulo city.
+Aldeia da Serra village, a suburban housing neighbourhood located 35km west from Sao Paulo city, Brazil. It's a place with about 10 housing condominiuns where people live close to Nature and not too far from workplace. Although traffic is usually heavy and it takes about 30' to get to Alphaville region and about 90' to Sao Paulo city.
 
-As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos's southern region. Yes, I live at Aldeia da Serra and for me the proximity to the Nature is worth the distance from workplace. Additionally, recent developments of Covid-19 has been acellerating the adoption and expansion of **work from home** modality among entreprises, which may decrease the necessity to commute.
+As a motorcycle enthusiastic, it usually takes me about 45' to reach Sao Paulos's southern region. Yes, I live at Aldeia da Serra and for me the proximity to the Nature is worth the distance from workplace. Additionally, recent developments of Covid-19 has been acellerating the adoption and expansion of **work from home** modality among entreprises, which may decrease the necessity to commute on a daily basis.
 
-
+Well, let's go to the project itself!
 
 
 
@@ -166,3 +172,13 @@ Expected resuls:
 
 - street name | street number | condo name |  city
 
+
+### REFERENCES
+
+
+
+* Getting started with Markdown - Felipe Song
+https://github.com/fefong/markdown_readme
+
+* StackEdit In-browser Markdown Editor
+https://stackedit.io/
